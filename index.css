@@ -72,8 +72,15 @@ body {
     font-weight: 700;
 }
 
+.placeholder {
+    width: 450px;
+    height: 350px;
+}
+
 .gesture-img {
     display: none;
+    width: 450px;
+    height: 350px;
 }
 
 
