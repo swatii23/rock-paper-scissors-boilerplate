@@ -11,24 +11,30 @@
         <h1 id="score" class="text"><span>0</span> - <span>0</span></h1>
         <div class="flex main-div">
             <div class="player-div">
-                <h3 class="text">You</h3>
-                <img src="./assets/paper-hand.png" alt="">
+                <h3 class="text player">You</h3>
+                <img src="" alt="">
+                <img class="gesture-img" id="1" src="./assets/paper-hand.png" alt="">
+                <img class="gesture-img" id="2" src="./assets/rock-hand.png" alt="">
+                <img class="gesture-img" id="3" src="./assets/scissors-hand.png" alt="">
                 <div>
-                    <img class="option-logo" id="rock-button" src="./assets/rock-logo.png" alt="">
-                    <img class="option-logo" id="" src="./assets/paper-logo.png" alt="">
-                    <img class="option-logo" id="" src="./assets/scissors-logo.png" alt="">                    
+                    <img class="pointer" class="option-logo" id="rock-button" src="./assets/rock-logo.png" alt="">
+                    <img class="pointer" class="option-logo" id="" src="./assets/paper-logo.png" alt="">
+                    <img class="pointer" class="option-logo" id="" src="./assets/scissors-logo.png" alt="">                    
                 </div>
             </div>
             <img src="./assets/vs.png" alt="">
             <div class="player-div">
-                <h3 class="text">Comp</h3>
-                <img src="./assets/paper-hand.png" alt="">
+                <h3 class="text player">Comp</h3>
+                <img src="" alt="">
+                <img class="gesture-img" id="4" src="./assets/paper-hand.png" alt="">
+                <img class="gesture-img" id="5" src="./assets/rock-hand.png" alt="">
+                <img class="gesture-img" id="6" src="./assets/scissors-hand.png" alt="">
             </div>
         </div>
-        <div>
+        <div id="result-div">
             <h2 class="text"><span>You</span> won the game</h2>
-            <button>Play Again</button>
-        </div>
+            <button id="play-again-button" class="pointer">Play Again</button>
+</div>
     </div>
 </body>
 </html>

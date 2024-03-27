@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 5px 5px 0;
+    padding: 4px 5px 0;
 }
 
 body {
@@ -50,14 +50,45 @@ body {
     color: white;
 }
 
+/* common for game and index */
+.pointer {
+    cursor: pointer;
+}
 
 
 /* game.html */
 #score {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 900;
 }
 
 .player-div {
     border: 1px solid yellow;
-    height: 70vh;
+    height: 75vh;
+}
+
+.player {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gesture-img {
+    display: none;
+}
+
+
+#result-div {
+    display: none;
+}
+
+#play-again-button {
+    color: white;
+    background-color: rgb(232, 205, 3);
+    font-size: 15px;
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    margin: 1%;
+    padding: 4px;
+    border-radius: 5px;
 }
