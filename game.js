@@ -85,11 +85,11 @@ function declareWinner() {
         document.getElementById("result-div").style.display = "block";
 
         if(score1 > score2) {
-            document.querySelector(".text > span").textContent = "You";
+            document.querySelector("h2 > span").textContent = "You";
         } else if(score1 < score2) {
-            document.querySelector(".text > span").textContent = "Comp";
+            document.querySelector("h2 > span").textContent = "Comp";
         } else {
-            document.querySelector(".text").innerHTML = "Match Tied"
+            document.querySelector("h2").innerHTML = "Match Tied"
         }
     }
 }
