@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 5px 5px 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./assets/bg.png");
+    text-align: center;
+}
+
+#heading {
+    color: rgb(90, 37, 192);
+    font-size: 50px;
+}
+
+/* common for game and index */
+.flex {
+    display: flex;
+}
+
+/* common for game and index */
+.main-div {
+    justify-content: space-around;
+}
+
+#img-div {
+    margin-top: 10px;
+}
+
+#play-div {
+    align-self: flex-end;
+    width: 20%;
+}
+
+#play-button {
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+}
+
+#play-button + p {
+    align-self: flex-end;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* common for game and index */
+.text {
+    color: white;
+}
+
+
+
+/* game.html */
+#score {
+    font-size: 50px;
+}
+
+.player-div {
+    border: 1px solid yellow;
+    height: 70vh;
+}
